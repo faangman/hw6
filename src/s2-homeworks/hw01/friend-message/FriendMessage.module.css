@@ -1,0 +1,55 @@
+.friendMessage {
+    width: 100vh;
+    float: left;
+}
+
+.friendImageAndText {
+    display: flex;
+    gap: 10px
+}
+
+.friendImageAndText img {
+    width: 48px;
+    height: 48px;
+}
+
+.friendText {
+    background: #F5F7FB;
+    border-radius: 10px 10px 10px 0px;
+    box-shadow: 2px 2px 2px  black;
+    padding: 10px;
+    /*position: relative;*/
+}
+
+.friendText:after {
+    /*content: '';*/
+    /*position: absolute;*/
+    /*top: 60px; !* расстояние уголка от верхнего края *!*/
+    /*left: -10px; !* расстояние уголка от левого края *!*/
+    /*border-top: 10px solid transparent; !* делаем верхнюю сторону уголка невидимой *!*/
+    /*border-left: 10px solid #7c1b1b; !* левая сторона уголка *!*/
+}
+
+.friendName {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #000000;
+}
+
+.friendMessageText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #000000;
+    padding-top: 5px;
+}
+
+.friendTime {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+}

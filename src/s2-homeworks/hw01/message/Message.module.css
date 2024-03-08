@@ -1,0 +1,56 @@
+.message {
+    width: 50%;
+    float: right;
+}
+
+.imageAndText {
+    display: flex;
+    gap: 10px;
+}
+
+.imageAndText img {
+    width: 48px;
+    height: 48px;
+}
+
+.text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    background: #0066CC;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px black;
+    padding: 10px;
+}
+
+.text:after {
+
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+
+}
+
+.messageText {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    padding-top: 5px;
+
+}
+
+.time {
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 12px;
+    letter-spacing: 0em;
+
+}
