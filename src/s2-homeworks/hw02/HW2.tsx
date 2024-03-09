@@ -27,11 +27,11 @@ export type FilterType = 'all' | AffairPriorityType
 
 // constants
 const defaultAffairs: AffairType[] = [ // need to fix any
-    {_id: 1, name: 'React', priority: 'high'}, // студенты могут изменить содержимое name и количество элементов в массиве, ...priority не менять!
-    {_id: 2, name: 'anime', priority: 'low'},
-    {_id: 3, name: 'games', priority: 'low'},
-    {_id: 4, name: 'work', priority: 'high'},
-    {_id: 5, name: 'html & css', priority: 'middle'},
+    {_id: 0, name: 'React', priority: 'high'}, // студенты могут изменить содержимое name и количество элементов в массиве, ...priority не менять!
+    {_id: 1, name: 'anime', priority: 'low'},
+    {_id: 2, name: 'games', priority: 'low'},
+    {_id: 3, name: 'work', priority: 'high'},
+    {_id: 4, name: 'html & css', priority: 'middle'},
 ]
 
 // pure helper functions
